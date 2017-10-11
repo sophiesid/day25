@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+html, body{
+	min-height: 100%;
+}
+body{
+	margin: 0;
+	background-color: #ffffff;
+	color:   #b0b0b0;
+	font: 300 18px/1.9 Lato, Arial, sans-serif;
+}
+.ba-container{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding: 130px 100px;
+}
+.ba-editor-box{
+	box-shadow: 0px 4px 68px 0px rgba(0, 0, 0, 0.1);
+	margin: 0 auto;
+	padding: 140px 140px 120px 120px;
+}
+
+.ba-title{
+	font: 400 42px/0.8 "Playfair Display", Arial, serif;
+	margin: 0;
+	color:  #171717;
+	padding-bottom: 37px;
+}
+[class^="ba-paragraph"]{
+	margin: 0;
+	padding: 15px 0;
+	letter-spacing: -0.038em;
+}
+.ba-paragraph-first{
+	padding-top: 0;
+}
+.ba-paragraph-first:first-letter{
+	font-size: 110px;
+	float: left;
+	margin: -65px 35px -60px 0;
+	font-family: "Playfair Display", Arial, serif;
+	color: #171717;
+}
+.ba-paragraph-third{
+	padding-bottom: 0;
+}
+.ba-quote{
+	font-style: italic;
+	font-size: 24px;
+	margin: 0 40px 0 0;
+	text-align: left;
+}
+.ba-quote:before{
+	content: "\201C ";
+	font-size: 54px;
+	margin-right: 25px;
+	color: #565656;
+}
+.ba-button{
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #eaa258;
+	width: 260px;
+	height: 64px;
+	text-transform: uppercase;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 700;
+	color: #eaa258;
+	padding-top: 12px;
+}
+.ba-button:hover{
+	color: #FFF;
+	background-color: #eaa258;
+}
