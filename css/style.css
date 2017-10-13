@@ -17,7 +17,7 @@ body{
 }
 .ba-container{
 	margin: 0 auto;
-	max-width: 1400px;
+	max-width: 1500px;
 	padding: 130px 100px;
 }
 .ba-editor-box{
@@ -32,23 +32,16 @@ body{
 	color:  #171717;
 	padding-bottom: 37px;
 }
-[class^="ba-paragraph"]{
-	margin: 0;
-	padding: 15px 0;
-	letter-spacing: -0.038em;
+.ba-paragraph{
+	margin: 15px 0;
+	letter-spacing: -0.007em;
 }
-.ba-paragraph-first{
-	padding-top: 0;
-}
-.ba-paragraph-first:first-letter{
+.ba-editor-box p:first-of-type:first-letter{
 	font-size: 110px;
 	float: left;
 	margin: -65px 35px -60px 0;
 	font-family: "Playfair Display", Arial, serif;
 	color: #171717;
-}
-.ba-paragraph-third{
-	padding-bottom: 0;
 }
 .ba-quote{
 	font-style: italic;
@@ -66,14 +59,12 @@ body{
 	display: inline-block;
 	text-decoration: none;
 	border: 2px solid #eaa258;
-	width: 260px;
-	height: 64px;
 	text-transform: uppercase;
 	text-align: center;
 	vertical-align: middle;
 	font-weight: 700;
 	color: #eaa258;
-	padding-top: 12px;
+	padding: 15px 85px;
 }
 .ba-button:hover{
 	color: #FFF;
